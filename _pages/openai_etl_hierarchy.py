@@ -29,8 +29,8 @@ pdf_reader = LayoutPDFReader(llmsherpa_api_url)
 # Please change the following variables to your own Neo4j instance
 NEO4J_URL = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "Password01!"
-NEO4J_DATABASE = "etl"
+NEO4J_PASSWORD = "yourpassword"
+NEO4J_DATABASE = "yourdb"
 
 PROJECT_ID = st.secrets["PROJECT_ID"] 
 REGION = st.secrets["REGION"]
