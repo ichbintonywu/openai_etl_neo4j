@@ -18,11 +18,11 @@ from streamlit_float import *
 BACKEND = "http://localhost:8000"
 
 # Set the OpenAI API key
-os.environ["AZURE_OPENAI_API_KEY"] = "9a030d54ed954aeab82be12b8b10cd59"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://genai-xavier.openai.azure.com/"
-os.environ["OPENAI_MODEL_NAME"] = "gpt-4-32k"
-os.environ["OPENAI_API_VERSION"] = "2024-02-01"
-os.environ["OPENAI_API_TYPE"] = "azure"
+os.environ["AZURE_OPENAI_API_KEY"] = ""
+os.environ["AZURE_OPENAI_ENDPOINT"] = ""
+os.environ["OPENAI_MODEL_NAME"] = ""
+os.environ["OPENAI_API_VERSION"] = ""
+os.environ["OPENAI_API_TYPE"] = ""
 
 st.set_page_config(
     page_title="Vector only vs KG + vector",
