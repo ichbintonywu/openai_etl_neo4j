@@ -35,8 +35,8 @@ import glob
 # Neo4j env
 os.environ["NEO4J_URI"] = "bolt://localhost:7687"
 os.environ["NEO4J_USERNAME"] = "neo4j"
-os.environ["NEO4J_PASSWORD"] = "Password01!"
-os.environ["NEO4J_DB"] = "etl"
+os.environ["NEO4J_PASSWORD"] = "yourpassword"
+os.environ["NEO4J_DB"] = "yourdb"
 
 graph = Neo4jGraph(database=os.getenv("NEO4J_DB"))
 
